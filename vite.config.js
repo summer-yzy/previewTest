@@ -8,5 +8,8 @@ export default defineConfig({
   base: '/previewTest/',
   server:{
     host: true
+  },
+  build:{
+    assetsDir: "assets",
   }
 })
