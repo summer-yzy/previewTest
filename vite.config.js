@@ -4,9 +4,8 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/previewTest/',
   publicDir: 'public',
-  build:{
-    outDir: 'docs',
+  server:{
+    host: true
   }
 })
